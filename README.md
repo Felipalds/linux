@@ -18,3 +18,16 @@ Linux Administrator Guide.
 5. Journaling - logs de arquivos no sistema operacional.
 6. EXT - Extended File System.
 7. ZFS - Zeta File System (Sun Microsystem).
+
+## Checando portas e networking
+grep serve para filtrar e marcar
+- sudo lsof -i -P -n
+- sudo lsof -i -P -n | grep LISTEN
+- sudo netstat -tulpn | grep LISTEN
+- sudo ss -tulpn
+- sudo lsof -i:PORTNUMBER
+- sudo nmap -sT -O localhost
+
+
+Podemos acessar a pasta /etc e entrar no arquivo services
+- cat /etc/services
