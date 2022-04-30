@@ -28,6 +28,15 @@ grep serve para filtrar e marcar
 - sudo lsof -i:PORTNUMBER
 - sudo nmap -sT -O localhost
 
-
 Podemos acessar a pasta /etc e entrar no arquivo services
 - cat /etc/services
+
+Podemos testar um servidor ou um IP fazendo
+- ping servidor/ip
+- ele envia um ICMP (Internet Control Message Protocol)
+- ao encerrar o ping ele nos mostra a % de pacotes perdidos
+- -c indica quantos pacotes queremos (ping -c google.com)
+
+## IP
+- o IP 0.0.0.0 é um IPv4 não roteável , com diversos usos
+- pode servir como "qualquer IP"
