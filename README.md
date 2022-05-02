@@ -37,6 +37,7 @@ Podemos testar um servidor ou um IP fazendo
 - ao encerrar o ping ele nos mostra a % de pacotes perdidos
 - -c indica quantos pacotes queremos (ping -c google.com)
 
-## IP
+## IP - Internet Protocol
 - o IP 0.0.0.0 é um IPv4 não roteável , com diversos usos
 - pode servir como "qualquer IP"
+- IP é um conjunto de 4 digitos 255.255.255.255 que identificam um aparelho ou uma rede
